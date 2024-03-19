@@ -1,0 +1,55 @@
+html
+{
+  margin: 2rem;
+  /*border: 3px solid black;*/
+  /*border-radius: 2rem;*/
+  background-color: yellow;
+}
+
+body
+{
+  margin: 2rem;
+  border: 3px solid black;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  background-color: white;
+  box-shadow: 1rem -1rem 2rem red;
+}
+
+p
+{
+color: grey;
+}
+
+.logo
+{
+  display: block;
+  border-radius: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+.learning-button
+{
+  background-color: #ecd681;
+  font-weight: bold;
+  border: 0;
+  border-radius: 0.7rem;
+  width: 15%;
+  height: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.author
+{
+  display: flex;
+  flex-direction;
+  justify-content: flex-start;
+}
+
+.author-name
+{
+  margin: 1rem;
+}
